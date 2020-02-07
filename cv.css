@@ -1,0 +1,153 @@
+img{
+    width: 180px;
+    height: 180px;
+    border: 5px solid blue;
+    border-radius: 100%;
+}
+
+div h2{
+        background-color: gray;
+}
+
+h1{
+    text-align: center;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.details{
+    float: left;
+    margin-right: 10%;
+    margin-bottom: 2px;
+}
+
+.adresse{
+    float: left;
+    margin-right: 17.2%;
+    margin-bottom: 2px;
+}
+
+.for{
+    float: left;
+    margin-right: 17.2%;
+}
+
+.compétences{
+    float: left;
+    margin-right: 10%;
+}
+
+.expériences{
+    float: left;
+    margin-right: 11.5%;
+}
+
+.langues{
+    float: left;
+    margin-right: 23%;
+}
+
+.réseaux{
+    float: left;
+    margin-right: 1%;
+}
+
+.bordure{
+    border: 2px solid gray;
+    border-top: 0px;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width:1024px) {
+   .reduire{
+        height: 100px;
+        width: 10%;
+   } 
+}
+
+@media screen and (max-width:768px){
+    .details, .adresse{
+        width: 25%;
+    }
+
+    .phrase{
+        margin-bottom: 20%;
+    }
+
+    .pousse{
+        margin-left: 3%;
+    }
+
+    .langues{
+        margin-right: 27%;
+    }
+}
+
+@media screen and (max-width:480px){
+    .adresse{
+        display: none;
+    }
+
+    .details{
+        width: 50%;
+        padding-left: 5%;
+    }
+
+    p{
+        padding-left: 5%;
+    }
+
+    .point{
+        display: none;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .pousse{
+        margin-left: 0%;
+    }
+
+    .kin{
+        margin-left: 62%;
+    }
+
+    .for{
+        padding-left: 5%;
+    }
+
+    .reduire{
+       width: 25%; 
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .centrer{
+        margin-left: 20%;
+    }
+
+    .musique{
+        padding-left: 5%;
+    }
+
+    .langues{
+        padding-left: 5%;
+    }
+
+    .pouce{
+        margin-left: 49%;
+    }
+
+    .padder{
+        margin-left: 5%;
+    }
+}
